@@ -156,3 +156,27 @@ div {
 .status {
   margin-bottom: 10px;
 }
+
+@media (max-width: 960px) {
+  div {
+    font-size: 10px;
+  }
+  .square {
+    width: 16px;
+    height: 16px;
+  }
+  button{
+    padding: 4px 8px;
+    font-size: 8px;
+  }
+
+ button.square {
+   display: flex;
+   align-items: center;
+   font-size: 10px;
+   padding-left: 3px;
+   margin-bottom: 50px;
+   margin-right: 10px;
+ }
+
+}
